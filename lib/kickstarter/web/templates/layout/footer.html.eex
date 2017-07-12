@@ -1,0 +1,23 @@
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="logo">
+          <a href="http://www.ncepu.edu.cn">
+            <img src="http://www.ncepu.edu.cn/images/logo_horizontal_2x.png" width="120px" alt="">
+          </a>
+        </div>
+			</div>
+			<div class="col-md-4">
+			  <p>版权所有 © 华北电力大学</p>
+				<p>北京校部：北京市昌平区北农路2号 邮编 102206</p>
+				<p>保定校区：河北省保定市永华北大街619号 邮编 071003</p>
+				<p>管理员信箱：xxb@ncepu.edu.cn</p>
+				<p>京公网安备：110402430080 | 京ICP备：14001371</p>
+			</div>
+			<div class="col-md-4">
+				
+			</div>
+		</div>
+	</div>
+</footer>

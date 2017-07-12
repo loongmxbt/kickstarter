@@ -1,0 +1,108 @@
+<div class="jumbotron bg-student">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <h1></h1>
+        <p>...</p>
+      </div>
+      <div class="col-md-4">
+        <div class="card bg-transblue">
+          <h2>立即发送项目评审！</h2>
+          <p>入驻华北电力大学创业园，获得启动资金！</p>
+          <a href="" class="btn btn-success btn-lg">入驻园区</a>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="widget">
+          <div class="title">创业头条</div>
+          <div class="content">
+            <div class="row">
+              <div class="col-xs-6 col-md-4">
+                <a href="#" class="thumbnail"><img src="http://www.ncepu.edu.cn/images/content/2017-07/20170707084739653054.jpg" alt=""></a>
+              </div>
+              <div class="col-xs-6 col-md-8">
+                <h4>周坚：牢记习总书记要求，当好“引路人”，做“四有”好教师</h4>
+                <p>6月29日、30日，7月5日，校党委书记周坚先后在保定校区、北京校部召开院系骨干教师座谈会、高层次人才座谈会、教授座谈会和中青年教师座谈会。校党委副书记郭孝锋、副校长檀勤良参加座谈会。座谈会上，与会人员结合自身实际工作，从学校“大电力”学科体系的进一步构建与完善、教师队...</p>
+              </div>
+            </div>
+          </div>
+          <div class="content">
+            <div class="row">
+              <div class="col-xs-6 col-md-4">
+                <a href="#" class="thumbnail"><img src="http://www.ncepu.edu.cn/images/content/2017-07/20170707084739653054.jpg" alt=""></a>
+              </div>
+              <div class="col-xs-6 col-md-8">
+                <h4>周坚：牢记习总书记要求，当好“引路人”，做“四有”好教师</h4>
+                <p>6月29日、30日，7月5日，校党委书记周坚先后在保定校区、北京校部召开院系骨干教师座谈会、高层次人才座谈会、教授座谈会和中青年教师座谈会。校党委副书记郭孝锋、副校长檀勤良参加座谈会。座谈会上，与会人员结合自身实际工作，从学校“大电力”学科体系的进一步构建与完善、教师队...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="widget">
+          <div class="title">新闻速递</div>
+          <div class="content">
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="widget">
+          <div class="title">创业活动</div>
+          <div class="content">
+            <ul class="news-list">
+              <li>
+                <span class="title"><a href="">3D Printing教学一二三</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">环境感知在自动驾驶领域的应用及挑战</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">英国教学科研体制及研究生招生培养政策</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">海峡两岸绿色能源与应用学术研讨会</a></span>
+                <span class="date">07-03</span>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="widget">
+          <div class="title">通知公告</div>
+          <div class="content">
+            <ul class="news-list">
+              <li>
+                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
+                <span class="date">07-03</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+
+
+    
+  </div>
+
+</section>
