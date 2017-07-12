@@ -36,11 +36,23 @@ defmodule Kickstarter.Web.Router do
     coherence_routes :protected
   end
 
-  # Site
+  # Site Public
   scope "/", Kickstarter.Web do
-    pipe_through :browser # Use the default browser stack
+    pipe_through :browser
 
     get "/", PageController, :index
+    get "/course", PageController, :course
+    get "/showcase", PageController, :showcase
+    get "/tutor", PageController, :tutor
+    get "/train", PageController, :train
+  end
+
+  # Site Protected
+  scope "/", Kickstarter.Web do
+    pipe_through :protected
+
+    get "/join", PageController, :join
+    get "/proj", PageController, :proj
   end
 
   # ExAdmin

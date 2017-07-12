@@ -397,3 +397,7 @@ msgstr ""
 #: lib/kickstarter/web/coherence_messages.ex:56
 msgid "required"
 msgstr ""
+
+#: lib/kickstarter/web/templates/coherence/session/new.html.eex:1
+msgid "Login Account"
+msgstr ""

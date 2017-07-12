@@ -57,7 +57,7 @@ msgstr "无法找到令牌"
 #: lib/kickstarter/web/templates/coherence/session/new.html.eex:28
 #: lib/kickstarter/web/templates/coherence/unlock/new.html.eex:19
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: lib/kickstarter/web/templates/coherence/email/password.html.eex:7
 msgid "Change my password"
@@ -397,3 +397,7 @@ msgstr "未锁定"
 #: lib/kickstarter/web/coherence_messages.ex:56
 msgid "required"
 msgstr "必须"
+
+#: lib/kickstarter/web/templates/coherence/session/new.html.eex:1
+msgid "Login Account"
+msgstr "用户登录"
