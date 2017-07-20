@@ -14,7 +14,7 @@
 
   <body>
     
-    <%= render Kickstarter.Web.LayoutView, "header.html" %>
+    <%= render Kickstarter.Web.LayoutView, "header.html", assigns %>
 
     <%= render @view_module, @view_template, assigns %>
 

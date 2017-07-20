@@ -32,9 +32,8 @@
                 <h4>周坚：牢记习总书记要求，当好“引路人”，做“四有”好教师</h4>
                 <p>6月29日、30日，7月5日，校党委书记周坚先后在保定校区、北京校部召开院系骨干教师座谈会、高层次人才座谈会、教授座谈会和中青年教师座谈会。校党委副书记郭孝锋、副校长檀勤良参加座谈会。座谈会上，与会人员结合自身实际工作，从学校“大电力”学科体系的进一步构建与完善、教师队...</p>
               </div>
-            </div>
-          </div>
-          <div class="content">
+            </div> <!-- end row -->
+
             <div class="row">
               <div class="col-xs-6 col-md-4">
                 <a href="#" class="thumbnail"><img src="http://www.ncepu.edu.cn/images/content/2017-07/20170707084739653054.jpg" alt=""></a>
@@ -43,41 +42,47 @@
                 <h4>周坚：牢记习总书记要求，当好“引路人”，做“四有”好教师</h4>
                 <p>6月29日、30日，7月5日，校党委书记周坚先后在保定校区、北京校部召开院系骨干教师座谈会、高层次人才座谈会、教授座谈会和中青年教师座谈会。校党委副书记郭孝锋、副校长檀勤良参加座谈会。座谈会上，与会人员结合自身实际工作，从学校“大电力”学科体系的进一步构建与完善、教师队...</p>
               </div>
-            </div>
-          </div>
-        </div>
+            </div> <!-- end row -->
+          </div> <!-- end content -->
+        </div> <!-- end widget -->
         <div class="widget">
           <div class="title">新闻速递</div>
           <div class="content">
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="widget">
-          <div class="title">创业活动</div>
-          <div class="content">
-            <ul class="news-list">
-              <li>
-                <span class="title"><a href="">3D Printing教学一二三</a></span>
-                <span class="date">07-03</span>
-              </li>
-              <li>
-                <span class="title"><a href="">环境感知在自动驾驶领域的应用及挑战</a></span>
-                <span class="date">07-03</span>
-              </li>
-              <li>
-                <span class="title"><a href="">英国教学科研体制及研究生招生培养政策</a></span>
-                <span class="date">07-03</span>
-              </li>
-              <li>
-                <span class="title"><a href="">海峡两岸绿色能源与应用学术研讨会</a></span>
-                <span class="date">07-03</span>
-              </li>
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail"><img src="http://www.ncepu.edu.cn/images/content/2017-07/20170707084739653054.jpg" alt=""></a>
+              </div>
+              <div class="col-xs-6 col-md-9">
+                <h4>周坚：牢记习总书记要求，当好“引路人”，做“四有”好教师</h4>
+                <p>6月29日、30日，7月5日，校党委书记周坚先后在保定校区、北京校部召开院系骨干教师座谈会、高层次人才座谈会、教授座谈会和中青年教师座谈会。校党委副书记郭孝锋、副校长檀勤良参加座谈会。</p>
+              </div>
+            </div> <!-- end row -->
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail"><img src="http://www.ncepu.edu.cn/images/content/2017-07/20170707084739653054.jpg" alt=""></a>
+              </div>
+              <div class="col-xs-6 col-md-9">
+                <h4>周坚：牢记习总书记要求，当好“引路人”，做“四有”好教师</h4>
+                <p>6月29日、30日，7月5日，校党委书记周坚先后在保定校区、北京校部召开院系骨干教师座谈会、高层次人才座谈会、教授座谈会和中青年教师座谈会。校党委副书记郭孝锋、副校长檀勤良参加座谈会。</p>
+              </div>
+            </div> <!-- end row -->
+            <div class="row">
+              <div class="col-xs-6 col-md-3">
+                <a href="#" class="thumbnail"><img src="http://www.ncepu.edu.cn/images/content/2017-07/20170707084739653054.jpg" alt=""></a>
+              </div>
+              <div class="col-xs-6 col-md-9">
+                <h4>周坚：牢记习总书记要求，当好“引路人”，做“四有”好教师</h4>
+                <p>6月29日、30日，7月5日，校党委书记周坚先后在保定校区、北京校部召开院系骨干教师座谈会、高层次人才座谈会、教授座谈会和中青年教师座谈会。校党委副书记郭孝锋、副校长檀勤良参加座谈会。</p>
+              </div>
+            </div> <!-- end row -->
+          </div> <!-- end content -->
+        </div> <!-- end widget -->
 
-            </ul>
-          </div>
-        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        
         <div class="widget">
           <div class="title">通知公告</div>
           <div class="content">
@@ -97,6 +102,91 @@
             </ul>
           </div>
         </div>
+
+        <div class="widget">
+          <div class="title">创业活动</div>
+          <div class="content">
+            <ul class="news-list">
+              <li>
+                <span class="title"><a href="">环境感知在自动驾驶领域的应用及挑战</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">英国教学科研体制及研究生招生培养政策</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">海峡两岸绿色能源与应用学术研讨会</a></span>
+                <span class="date">07-03</span>
+              </li>
+            </ul>
+          </div>
+        </div> <!-- end widget -->
+
+        <div class="widget">
+          <div class="title">学生导航</div>
+          <div class="content">
+            <div class="grid-nav">
+              <div class="item bg-green">
+                <div><i class="fa fa-address-card fa-2x"></i></div>
+                <p>全国大学生</p>
+                </div>
+              <div class="item bg-yellow">
+                <div><i class="fa fa-tasks fa-2x"></i></div>
+                <p>讲座预约</p>
+              </div>
+              <div class="item bg-purple">
+                <div><i class="fa fa-id-card-o fa-2x"></i></div>
+                <p>报到证查询</p>
+              </div>
+              <div class="item bg-yellow">
+                <div><i class="fa fa-sticky-note fa-2x"></i></div>
+                <p>档案查询</p>
+              </div>
+              <div class="item bg-purple">
+                <div><i class="fa fa-thumbs-up fa-2x"></i></div>
+                <p>就业测评</p>
+              </div>
+              <div class="item bg-yellow">
+                <div><i class="fa fa-user-secret fa-2x"></i></div>
+                <p>就业调查</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end widget -->
+
+        <div class="widget">
+          <div class="title">单位导航</div>
+          <div class="content">
+            <div class="grid-nav">
+              <div class="item bg-green">
+                <div><i class="fa fa-paper-plane-o fa-2x"></i></div>
+                <p>单位登录</p>
+              </div>
+              <div class="item bg-yellow">
+                <div><i class="fa fa-pencil-square-o fa-2x"></i></div>
+                <p>单位注册</p>
+              </div>
+              <div class="item bg-purple">
+                <div><i class="fa fa-envelope fa-2x"></i></div>
+                <p>单位调查</p>
+              </div>
+              <div class="item bg-pink">
+                <div><i class="fa fa-cube fa-2x"></i></div>
+                <p>院系介绍</p>
+              </div>
+              <div class="item bg-green">
+                <div><i class="fa fa-database fa-2x"></i></div>
+                <p>人才搜索</p>
+              </div>
+              <div class="item bg-yellow">
+                <div><i class="fa fa-user-circle fa-2x"></i></div>
+                <p>生源速览</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- end widget -->
+
       </div>
       
     </div>

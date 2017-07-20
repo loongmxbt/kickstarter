@@ -144,3 +144,45 @@ footer p {
 	border: 2px solid;
 	border-color: #f3f3f3;
 }
+
+.grid-nav {
+  padding: 10px 0 0 10px;
+  width: 300px;
+  overflow: hidden;
+}
+
+.grid-nav .item {
+  position: relative;
+  float: left;
+  width: 90px;
+  height: 90px;
+  text-align: center;
+  color: white;
+  padding-top: 20px;
+}
+
+.grid-nav .item:hover {
+  z-index: 2;
+  border: 2px solid;
+  border-color: #005faf;
+}
+
+.bg-green {
+  background-color: rgb(88,181,48);
+}
+
+.bg-purple {
+  background-color: rgb(152,42,139);
+}
+
+.bg-orange {
+  background-color: rgb(241,130,0);
+}
+
+.bg-pink {
+  background-color: rgb(238,119,139);
+}
+
+.bg-yellow {
+  background-color: rgb(250,190,16);
+}
