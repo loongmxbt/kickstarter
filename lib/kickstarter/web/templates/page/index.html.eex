@@ -45,6 +45,57 @@
             </div> <!-- end row -->
           </div> <!-- end content -->
         </div> <!-- end widget -->
+      </div> <!-- end 8 -->
+
+
+      <div class="col-md-4">
+        
+        <div class="widget">
+          <div class="title">通知公告</div>
+          <div class="content">
+            <ul class="news-list">
+              <li>
+                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
+                <span class="date">07-03</span>
+              </li>
+            </ul>
+          </div>
+        </div> <!-- end widget -->
+
+        <div class="widget">
+          <div class="title">创业活动</div>
+          <div class="content">
+            <ul class="news-list">
+              <li>
+                <span class="title"><a href="">环境感知在自动驾驶领域的应用及挑战</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">英国教学科研体制及研究生招生培养政策</a></span>
+                <span class="date">07-03</span>
+              </li>
+              <li>
+                <span class="title"><a href="">海峡两岸绿色能源与应用学术研讨会</a></span>
+                <span class="date">07-03</span>
+              </li>
+            </ul>
+          </div>
+        </div> <!-- end widget -->
+
+      </div> <!-- end 4 -->
+      
+    </div> <!-- end row -->
+
+    <div class="row">
+      <div class="col-md-8">
         <div class="widget">
           <div class="title">新闻速递</div>
           <div class="content">
@@ -77,52 +128,9 @@
             </div> <!-- end row -->
           </div> <!-- end content -->
         </div> <!-- end widget -->
-
-      </div>
-
+      </div> <!-- end 8 -->
 
       <div class="col-md-4">
-        
-        <div class="widget">
-          <div class="title">通知公告</div>
-          <div class="content">
-            <ul class="news-list">
-              <li>
-                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
-                <span class="date">07-03</span>
-              </li>
-              <li>
-                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
-                <span class="date">07-03</span>
-              </li>
-              <li>
-                <span class="title"><a href="">关于2017年暑期工作安排的通知</a></span>
-                <span class="date">07-03</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="widget">
-          <div class="title">创业活动</div>
-          <div class="content">
-            <ul class="news-list">
-              <li>
-                <span class="title"><a href="">环境感知在自动驾驶领域的应用及挑战</a></span>
-                <span class="date">07-03</span>
-              </li>
-              <li>
-                <span class="title"><a href="">英国教学科研体制及研究生招生培养政策</a></span>
-                <span class="date">07-03</span>
-              </li>
-              <li>
-                <span class="title"><a href="">海峡两岸绿色能源与应用学术研讨会</a></span>
-                <span class="date">07-03</span>
-              </li>
-            </ul>
-          </div>
-        </div> <!-- end widget -->
-
         <div class="widget">
           <div class="title">学生导航</div>
           <div class="content">
@@ -186,13 +194,19 @@
             </div>
           </div>
         </div> <!-- end widget -->
+      </div> <!-- end 4 -->
 
-      </div>
-      
-    </div>
+    </div> <!-- end row -->
 
-
-    
-  </div>
+  </div> <!-- end container -->
 
 </section>
+
+
+
+
+
+
+
+
+

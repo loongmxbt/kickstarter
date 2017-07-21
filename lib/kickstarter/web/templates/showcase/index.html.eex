@@ -1,0 +1,38 @@
+<br>
+<section class="section">
+  <div class="container">
+    <div class="row">
+
+      <div class="col-md-3">
+        <ul class="nav nav-sidebar">
+          <li><a href="#">企业知识</a></li>
+          <li><a href="#">知识产权</a></li>
+          <li><a href="#">Analytics</a></li>
+          <li><a href="#">Export</a></li>
+        </ul>
+      </div>
+
+      <div class="col-md-9">
+        <div class="row">
+          <%= for showcase <- @showcases do %>
+          <div class="col-xs-4">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <img src="<%= showcase.image %>" width="100%" alt="">
+              </div>
+              <div class="panel-body">
+                <h4><%= link showcase.name, to: showcase_path(@conn, :show, showcase)%></h4>
+                <p><%= showcase.desc %></p>
+              </div>
+            </div>
+          </div>
+          <% end %>
+        </div>
+      </div>
+
+  
+
+    </div>
+  </div>
+</section>
+

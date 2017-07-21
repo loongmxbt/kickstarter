@@ -1,0 +1,22 @@
+<h2>Show Showcase</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @showcase.name %>
+  </li>
+
+  <li>
+    <strong>Image:</strong>
+    <%= @showcase.image %>
+  </li>
+
+  <li>
+    <strong>Desc:</strong>
+    <%= @showcase.desc %>
+  </li>
+
+</ul>
+
+<span><%= link "Back", to: showcase_path(@conn, :index) %></span>

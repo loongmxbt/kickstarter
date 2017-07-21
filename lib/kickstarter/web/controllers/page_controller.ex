@@ -6,7 +6,6 @@ defmodule Kickstarter.Web.PageController do
   def action(conn, _) do
   	case action_name(conn) do
   		:home  -> home(conn, conn.params)
-  		:course -> course(conn, conn.params)
   		:showcase  -> showcase(conn, conn.params)
   		:tutor -> tutor(conn, conn.params)
   		# :train -> train(conn, conn.params)
@@ -22,11 +21,6 @@ defmodule Kickstarter.Web.PageController do
     render(conn, :home, posts: posts)
   end
 
-  def course(conn, _params) do
-  	courses = nil
-  	render(conn, :course, courses: courses)
-  end
-
   def showcase(conn, _params) do
   	showcases = nil
   	render(conn, :showcase, showcases: showcases)
@@ -35,6 +29,14 @@ defmodule Kickstarter.Web.PageController do
   def tutor(conn, _params) do
   	tutors = nil
   	render(conn, :tutor, tutors: tutors)
+  end
+
+  def company_register(conn, _params) do
+    
+  end
+
+  def team_register(conn, _params) do
+    
   end
 
 end

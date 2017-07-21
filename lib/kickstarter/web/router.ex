@@ -41,10 +41,10 @@ defmodule Kickstarter.Web.Router do
     pipe_through :browser
 
     get "/", PageController, :index
-    get "/course", PageController, :course
-    get "/showcase", PageController, :showcase
-    get "/tutor", PageController, :tutor
-    get "/train", PageController, :train
+    get "/team_register", PageController, :team_register
+    get "/company_register", PageController, :company_register
+    resources "/posts", PostController, only: [:index, :show]
+    resources "/showcases", ShowcaseController, only: [:index, :show]
   end
 
   # Site Protected
