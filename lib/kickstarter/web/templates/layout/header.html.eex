@@ -34,16 +34,15 @@
         <ul class="nav navbar-nav">
           <li><a href="/">首页</a></li>
           <li><%= link "创业案例", to: showcase_path(@conn, :index) %></li>
-          <li><a href="/tutor">创业导师</a></li>
-          <li><a href="/join">团队入驻</a></li>
-          <li><a href="/company">公司注册</a></li>
-          <li><a href="/c/team">团队招募</a></li>
-          <li><a href="/c/tech">创业证办理</a></li>
-          <li><a href="/c/proj">项目申报</a></li>
-          <li><a href="/c/bbs">创业指导</a></li>
-          <li><a href="/download">常用下载</a></li>
+          <li><%= link "创业导师", to: tutor_path(@conn, :index) %></li>
+          <li><a href="/p/join">团队入驻</a></li>
+          <li><a href="/p/company">公司注册</a></li>
+          <li><a href="/p/team">团队招募</a></li>
+          <li><a href="/p/tech">创业证办理</a></li>
+          <li><a href="/p/proj">项目申报</a></li>
+          <li><a href="/p/intro">创业指导</a></li>
+          <li><a href="/p/download">常用下载</a></li>
         </ul>
-
       </div>
     </div>
   </nav>

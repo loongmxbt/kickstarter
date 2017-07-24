@@ -1,30 +1,36 @@
-<h2>Listing Posts</h2>
+<br>
+<section class="section">
+  <div class="container">
+    <div class="row">
 
-<table class="table">
-  <thead>
-    <tr>
-      <th>Title</th>
-      <th>Image</th>
-      <th>Body</th>
+      <div class="col-md-3">
+        <ul class="nav nav-sidebar">
+          <li><a href="#">创业头条</a></li>
+          <li><a href="#">新闻速递</a></li>
+          <li><a href="#">通知公告</a></li>
+          <li><a href="#">创业活动</a></li>
+        </ul>
+      </div>
 
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-<%= for post <- @posts do %>
-    <tr>
-      <td><%= post.title %></td>
-      <td><%= post.image %></td>
-      <td><%= post.body %></td>
+      <div class="col-md-9">
+        
 
-      <td class="text-right">
-        <span><%= link "Show", to: post_path(@conn, :show, post), class: "btn btn-default btn-xs" %></span>
-        <span><%= link "Edit", to: post_path(@conn, :edit, post), class: "btn btn-default btn-xs" %></span>
-        <span><%= link "Delete", to: post_path(@conn, :delete, post), method: :delete, data: [confirm: "Are you sure?"], class: "btn btn-danger btn-xs" %></span>
-      </td>
-    </tr>
-<% end %>
-  </tbody>
-</table>
+        <%= for post <- @posts do %>
 
-<span><%= link "New Post", to: post_path(@conn, :new) %></span>
+        <div class="row">
+          <div class="col-xs-3">
+            <a href="#" class="thumbnail"><img src="<%= post.image %>" alt=""></a>
+          </div>
+          <div class="col-xs-9">
+            <h4><%= link post.title, to: post_path(@conn, :show, post)%></h4>
+            <p><%= post.desc %></p>
+          </div>
+        </div>
+        <% end %>
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+

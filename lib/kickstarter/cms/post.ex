@@ -6,6 +6,7 @@ defmodule Kickstarter.CMS.Post do
 
   schema "cms_posts" do
     field :body, :string
+    field :desc, :string
     field :image, :string
     field :title, :string
 
@@ -15,7 +16,7 @@ defmodule Kickstarter.CMS.Post do
   @doc false
   def changeset(%Post{} = post, attrs) do
     post
-    |> cast(attrs, [:title, :image, :body])
-    |> validate_required([:title, :image, :body])
+    |> cast(attrs, [:title, :image, :desc, :body])
+    |> validate_required([:title, :body])
   end
 end

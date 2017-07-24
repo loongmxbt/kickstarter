@@ -37,7 +37,8 @@ defmodule Kickstarter.Mixfile do
      {:gettext, "~> 0.11"},
      {:cowboy, "~> 1.0"},
      {:ex_admin, github: "smpallen99/ex_admin", branch: "phx-1.3"},
-     {:coherence, "~> 0.4"}]
+     {:coherence, "~> 0.4"},
+     {:distillery, "~> 1.0"}]
   end
 
   # Aliases are shortcuts or tasks specific to the current project.

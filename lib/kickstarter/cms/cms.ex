@@ -197,4 +197,196 @@ defmodule Kickstarter.CMS do
   def change_showcase(%Showcase{} = showcase) do
     Showcase.changeset(showcase, %{})
   end
+
+  alias Kickstarter.CMS.Tutor
+
+  @doc """
+  Returns the list of tutors.
+
+  ## Examples
+
+      iex> list_tutors()
+      [%Tutor{}, ...]
+
+  """
+  def list_tutors do
+    Repo.all(Tutor)
+  end
+
+  @doc """
+  Gets a single tutor.
+
+  Raises `Ecto.NoResultsError` if the Tutor does not exist.
+
+  ## Examples
+
+      iex> get_tutor!(123)
+      %Tutor{}
+
+      iex> get_tutor!(456)
+      ** (Ecto.NoResultsError)
+
+  """
+  def get_tutor!(id), do: Repo.get!(Tutor, id)
+
+  @doc """
+  Creates a tutor.
+
+  ## Examples
+
+      iex> create_tutor(%{field: value})
+      {:ok, %Tutor{}}
+
+      iex> create_tutor(%{field: bad_value})
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def create_tutor(attrs \\ %{}) do
+    %Tutor{}
+    |> Tutor.changeset(attrs)
+    |> Repo.insert()
+  end
+
+  @doc """
+  Updates a tutor.
+
+  ## Examples
+
+      iex> update_tutor(tutor, %{field: new_value})
+      {:ok, %Tutor{}}
+
+      iex> update_tutor(tutor, %{field: bad_value})
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def update_tutor(%Tutor{} = tutor, attrs) do
+    tutor
+    |> Tutor.changeset(attrs)
+    |> Repo.update()
+  end
+
+  @doc """
+  Deletes a Tutor.
+
+  ## Examples
+
+      iex> delete_tutor(tutor)
+      {:ok, %Tutor{}}
+
+      iex> delete_tutor(tutor)
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def delete_tutor(%Tutor{} = tutor) do
+    Repo.delete(tutor)
+  end
+
+  @doc """
+  Returns an `%Ecto.Changeset{}` for tracking tutor changes.
+
+  ## Examples
+
+      iex> change_tutor(tutor)
+      %Ecto.Changeset{source: %Tutor{}}
+
+  """
+  def change_tutor(%Tutor{} = tutor) do
+    Tutor.changeset(tutor, %{})
+  end
+
+  alias Kickstarter.CMS.Category
+
+  @doc """
+  Returns the list of categories.
+
+  ## Examples
+
+      iex> list_categories()
+      [%Category{}, ...]
+
+  """
+  def list_categories do
+    Repo.all(Category)
+  end
+
+  @doc """
+  Gets a single category.
+
+  Raises `Ecto.NoResultsError` if the Category does not exist.
+
+  ## Examples
+
+      iex> get_category!(123)
+      %Category{}
+
+      iex> get_category!(456)
+      ** (Ecto.NoResultsError)
+
+  """
+  def get_category!(id), do: Repo.get!(Category, id)
+
+  @doc """
+  Creates a category.
+
+  ## Examples
+
+      iex> create_category(%{field: value})
+      {:ok, %Category{}}
+
+      iex> create_category(%{field: bad_value})
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def create_category(attrs \\ %{}) do
+    %Category{}
+    |> Category.changeset(attrs)
+    |> Repo.insert()
+  end
+
+  @doc """
+  Updates a category.
+
+  ## Examples
+
+      iex> update_category(category, %{field: new_value})
+      {:ok, %Category{}}
+
+      iex> update_category(category, %{field: bad_value})
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def update_category(%Category{} = category, attrs) do
+    category
+    |> Category.changeset(attrs)
+    |> Repo.update()
+  end
+
+  @doc """
+  Deletes a Category.
+
+  ## Examples
+
+      iex> delete_category(category)
+      {:ok, %Category{}}
+
+      iex> delete_category(category)
+      {:error, %Ecto.Changeset{}}
+
+  """
+  def delete_category(%Category{} = category) do
+    Repo.delete(category)
+  end
+
+  @doc """
+  Returns an `%Ecto.Changeset{}` for tracking category changes.
+
+  ## Examples
+
+      iex> change_category(category)
+      %Ecto.Changeset{source: %Category{}}
+
+  """
+  def change_category(%Category{} = category) do
+    Category.changeset(category, %{})
+  end
 end

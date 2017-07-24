@@ -1,0 +1,28 @@
+<h2>Show Tutor</h2>
+
+<ul>
+
+  <li>
+    <strong>Name:</strong>
+    <%= @tutor.name %>
+  </li>
+
+  <li>
+    <strong>Image:</strong>
+    <%= @tutor.image %>
+  </li>
+
+  <li>
+    <strong>Desc:</strong>
+    <%= @tutor.desc %>
+  </li>
+
+  <li>
+    <strong>Body:</strong>
+    <%= @tutor.body %>
+  </li>
+
+</ul>
+
+<span><%= link "Edit", to: tutor_path(@conn, :edit, @tutor) %></span>
+<span><%= link "Back", to: tutor_path(@conn, :index) %></span>

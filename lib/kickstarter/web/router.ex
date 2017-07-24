@@ -45,6 +45,7 @@ defmodule Kickstarter.Web.Router do
     get "/company_register", PageController, :company_register
     resources "/posts", PostController, only: [:index, :show]
     resources "/showcases", ShowcaseController, only: [:index, :show]
+    resources "/tutors", TutorController, only: [:index, :show]
   end
 
   # Site Protected

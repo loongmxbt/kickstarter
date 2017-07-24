@@ -38,6 +38,11 @@ config :ex_admin,
   module: Kickstarter.Web,
   modules: [
     Kickstarter.ExAdmin.Dashboard,
+    Kickstarter.ExAdmin.CMS.Category,
+    Kickstarter.ExAdmin.CMS.Post,
+    Kickstarter.ExAdmin.CMS.Showcase,
+    Kickstarter.ExAdmin.CMS.Tutor,
+    Kickstarter.ExAdmin.Coherence.User
   ]
 
 

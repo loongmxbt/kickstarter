@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <%= render Kickstarter.Web.LayoutView, "header.html" %>
+    <%= render Kickstarter.Web.LayoutView, "header.html", assigns %>
     
     <div class="container">
       <div class="row">

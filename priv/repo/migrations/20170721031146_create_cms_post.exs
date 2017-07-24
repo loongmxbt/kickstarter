@@ -5,6 +5,7 @@ defmodule Kickstarter.Repo.Migrations.CreateKickstarter.CMS.Post do
     create table(:cms_posts) do
       add :title, :string
       add :image, :string
+      add :desc, :string
       add :body, :string
 
       timestamps()

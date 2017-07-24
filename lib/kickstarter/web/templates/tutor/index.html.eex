@@ -5,25 +5,24 @@
 
       <div class="col-md-3">
         <ul class="nav nav-sidebar">
-          <li><a href="#">Idea阶段</a></li>
-          <li><a href="#">天使轮</a></li>
-          <li><a href="#">A轮</a></li>
-          <li><a href="#">创业基金</a></li>
-          <li><a href="#">创业大赛</a></li>
+          <li><a href="#">企业导师</a></li>
+          <li><a href="#">KAB讲师</a></li>
+          <li><a href="#">创投导师</a></li>
+          <li><a href="#">校内导师</a></li>
         </ul>
       </div>
 
       <div class="col-md-9">
         <div class="row">
-          <%= for showcase <- @showcases do %>
+          <%= for tutor <- @tutors do %>
           <div class="col-xs-4">
             <div class="panel panel-default">
               <div class="panel-heading">
-                <img src="<%= showcase.image %>" width="100%" alt="">
+                <img src="<%= tutor.image %>" width="100%" alt="">
               </div>
               <div class="panel-body">
-                <h4><%= link showcase.name, to: showcase_path(@conn, :show, showcase)%></h4>
-                <p><%= showcase.desc %></p>
+                <h4><%= link tutor.name, to: tutor_path(@conn, :show, tutor)%></h4>
+                <p><%= tutor.desc %></p>
               </div>
             </div>
           </div>
